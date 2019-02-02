@@ -1,0 +1,7 @@
+debca/blogging/WebConfig.class
+debca/blogging/controller/Index.class
+debca/blogging/controller/Login.class
+debca/blogging/ApplicationInitializer.class
+debca/blogging/SecurityApplicationInitializer.class
+debca/blogging/AppConfig.class
+debca/blogging/WebSecurityConfig.class

@@ -1,5 +1,6 @@
 package debca.blogging;
 
+import debca.blogging.model.Post;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScans;
@@ -29,7 +30,7 @@ public class AppConfig {
         properties.put(SHOW_SQL, true);
         properties.put(HBM2DDL_AUTO, "create-drop");
         factoryBean.setHibernateProperties(properties);
-        factoryBean.setAnnotatedClasses();
+        factoryBean.setAnnotatedClasses(Post.class);
         return factoryBean;
     }
 
